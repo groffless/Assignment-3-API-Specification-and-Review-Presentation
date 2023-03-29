@@ -9,7 +9,7 @@ From VisualCrossing.com<br>
 
 **Parameters examples:**  
 
-location: Winnipeg  
+address/location: Winnipeg  
 
 date: dd/mm/yyy  
 
