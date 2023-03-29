@@ -5,7 +5,7 @@ Our API offers real time precipittion for floods in Manitoba. For checking the p
 
 ## Endpoints
 URI:https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Winnipeg?unitGroup=metric&include=days&key=KPUJXVDUSAV6LY38KM4RWGEAJ&contentType=json
-From VisualCrossing.com
+\nFrom VisualCrossing.com
 
 Parameters examples:
 address: Winnipeg
@@ -15,3 +15,5 @@ longitude: -97.1411
 ## Resources
 
 ## Sample
+
+Get request:
