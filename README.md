@@ -24,7 +24,7 @@ longitude: -97.1411
 
 ## Resources
 
-_Sources with reliable precipitation/ flooding data for Manitoba, Canada: https://www.gov.mb.ca/mit/floodinfo/index.html_ 
+_Aside: Sources with reliable precipitation/ flooding data for Manitoba, Canada: https://www.gov.mb.ca/mit/floodinfo/index.html_ 
 
 
 Placement for paragraph
