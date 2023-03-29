@@ -11,7 +11,7 @@ Parameters examples:
 <pre>
 address: Winnipeg
 latitude: 49.8995
-longitude: -97.1411
+longitude: -97.1411<pre>
 
 ## Resources
 
