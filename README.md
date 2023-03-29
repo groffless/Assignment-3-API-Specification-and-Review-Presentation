@@ -40,6 +40,10 @@ curl -X 'GET' \ <br>
 https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Winnipeg?unitGroup=metric&include=days&key=KPUJXVDUSAV6LY38KM4RWGEAJ&contentType=json<br>
  -H 'accept: application/json'<br>
  
+ Precipitation:  
+ ```https://weather.visualcrossing.com?location=AssiniboineRiver,rainfall=56&date=1978-08-17``
+
+ 
 ### Sample response: 
  
 You will find the result from the endpoint GET: ___ formatted in JSON below. 
@@ -53,3 +57,17 @@ You will find the result from the endpoint GET: ___ formatted in JSON below.
     }
 }
 ```
+2.Precipitation:
+```
+
+{
+   "results":
+   {
+       "river_name": "Assiniboine River",
+       "flood_likelihood": 75
+
+       
+   }
+}
+```
+
