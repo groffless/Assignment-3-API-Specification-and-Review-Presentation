@@ -17,7 +17,7 @@ longitude: -97.1411
 ## Sample
 
 Get request:<br>
-curl -X 'GET' \<br>
+curl -X 'GET' \ <br>
 https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Winnipeg?unitGroup=metric&include=days&key=KPUJXVDUSAV6LY38KM4RWGEAJ&contentType=json<br>
  -H 'accept: application/json'<br>
  Sample response:<br>
