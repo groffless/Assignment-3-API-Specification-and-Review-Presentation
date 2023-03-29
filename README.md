@@ -3,7 +3,7 @@
 ## API Description  
 Our API offers real time precipittion data and how its amount can reflect floods in Manitoba. For checking the precipitation that cause floods in Manitoba, you can access amount of rainfall, location and date.
 
-## Endpoints with parameters
+## Endpoints and parameters
 URI: https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Winnipeg?unitGroup=metric&include=days&key=KPUJXVDUSAV6LY38KM4RWGEAJ&contentType=json
 From VisualCrossing.com<br>
 
