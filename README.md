@@ -4,12 +4,12 @@
 Our API offers real time precipittion for floods in Manitoba. For checking the precipitation for floods in Manitoba, you can access amount of rainfall, location and date.
 
 ## Endpoints
-URI:https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Winnipeg?unitGroup=metric&include=days&key=KPUJXVDUSAV6LY38KM4RWGEAJ&contentType=json<br>
+URI: https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Winnipeg?unitGroup=metric&include=days&key=KPUJXVDUSAV6LY38KM4RWGEAJ&contentType=json
 From VisualCrossing.com<br>
 
-Parameters examples:<br>
-address: Winnipeg<br>
-latitude: 49.8995<br>
+Parameters examples:
+address: Winnipeg
+latitude: 49.8995
 longitude: -97.1411
 
 ## Resources
@@ -34,21 +34,21 @@ Placement for paragraph
 } 
 ```
 
+### Sample request:
 
-## Sample
-
-Get request:<br>
 curl -X 'GET' \ <br>
 https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Winnipeg?unitGroup=metric&include=days&key=KPUJXVDUSAV6LY38KM4RWGEAJ&contentType=json<br>
  -H 'accept: application/json'<br>
  
- Sample response:<br>
+### Sample response: 
+ 
+You will find the result from the endpoint GET: ___ formatted in JSON below. 
  
  ```
 {
-    "results":
+    "data":
     {
-        "warning": "Small amount of flooding"
+        "warning": "Small amount of flooding in ___"
         
     }
 }
