@@ -8,10 +8,9 @@ URI:https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/t
 From VisualCrossing.com
 
 Parameters examples:
-<pre>
 address: Winnipeg
 latitude: 49.8995
-longitude: -97.1411<pre>
+longitude: -97.1411
 
 ## Resources
 
