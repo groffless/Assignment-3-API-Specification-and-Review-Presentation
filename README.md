@@ -11,15 +11,15 @@ _Note: Endpoints are focused mainly on the GET methods._
 
 **Parameters examples:**  
 
-address/location: e.g. Winnipeg 
+location: ```e.g. Winnipeg``` 
 
-date (dd/mm/yyyy): e.g. 30/03/2023  
+__date (dd/mm/yyyy):__ ```e.g. 30/03/2023```  
 
-amount of rainfall (mm): e.g. 20
+amount of rainfall (mm): ```e.g. 20```
 
-latitude: e.g 49.8995  
+__latitude:__ ```e.g 49.8995```  
 
-longitude: e.g -97.1411  
+__longitude:__ ```e.g -97.1411```
 
 
 ## Resources
@@ -32,16 +32,16 @@ Placement for paragraph
 ```
 { 
     "type": "resources",
-    "id": "",
+    "id": "1",
     "attributes": {
-        "title": ""
+        "title": "Precipitation Manitoba"
     },
     "relationships": {
         "author": {
             "links": {
-                "self": "https://website"
+                "self": "https://precipitationmanitoba.ca/floods"
             }
-            "data": {"type": "weather", "id": ""}
+            "data": {"type": "weather", "id": "1"}
         }
     }
 } 
@@ -60,19 +60,8 @@ https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timel
 ### Sample response: 
  
 You will find the result from the endpoint GET: ___ formatted in JSON below. 
- 
- ```
-{
-    "data":
-    {
-        "warning": "Small amount of flooding in ___"
-        
-    }
-}
-```
-2.Precipitation:
-```
 
+```
 {
    "results":
    {
