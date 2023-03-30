@@ -11,15 +11,15 @@ _Note: Endpoints are focused mainly on the GET methods._
 
 **Parameters examples:**  
 
-address/location: Winnipeg  
+address/location: e.g. Winnipeg 
 
-date: dd/mm/yyy  
+date (dd/mm/yyyy): e.g. 30/03/2023  
 
-amount of rainfall: (mm)
+amount of rainfall (mm): e.g. 20
 
-latitude: 49.8995  
+latitude: e.g 49.8995  
 
-longitude: -97.1411  
+longitude: e.g -97.1411  
 
 
 ## Resources
